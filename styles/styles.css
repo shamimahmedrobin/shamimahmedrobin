@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+.font{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;}
+.dark-2{
+    color: #474747;
+}
+/* shared style */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+/* btn style */
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+}
+.btn-2{
+    color: #FD6E0A;
+    background-color: white;
+    padding: 18px 35px;
+    border-color: #FD6E0A;
+    border-radius: 5px;
+}
+/* header */
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px 0px 200px;
+}
+.banner-content{
+    width: 585px;
+}
+.banner-greeting{
+    font-size: 35px;
+    font-weight: 600;
+}
+.banner-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.banner-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+}
+.banner-profile-pic{
+    width: 584px;
+}
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.bg-sec{
+    background-color: white;
+    stroke: 5px black;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: bold;
+}
