@@ -20,6 +20,9 @@
     font-weight: bold;
     color: #181818;
 }
+.text-center{
+    text-align: center;
+}
 /* main styles */
 main{
     max-width: 1140px;
@@ -34,6 +37,7 @@ main{
     padding: 18px 35px;
     border-radius: 5px;
     border: none;
+    text-decoration: none;
 }
 .btn-2{
     color: #FD6E0A;
@@ -41,6 +45,7 @@ main{
     padding: 18px 35px;
     border-color: #FD6E0A;
     border-radius: 5px;
+    text-decoration: none;
 }
 /* header */
 .header{
@@ -92,6 +97,7 @@ nav ul{
     font-size: 18px;
     font-weight: 400;
     color: #757575;
+    padding: 30px;
 }
 .banner-profile-pic{
     width: 584px;
@@ -103,8 +109,8 @@ nav ul{
     margin-top: 130px;
 }
 .bg-sec{
-    background-color: white;
-    stroke: 5px black;
+    background: white;
+    border-radius: 10px;
 }
 .about-items{
     display: flex;
@@ -112,4 +118,14 @@ nav ul{
 }
 .item-description{
     font-weight: bold;
+}
+/* skills section style */
+.skill-conteiner{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px black;
+    border-radius: 5px;
 }
