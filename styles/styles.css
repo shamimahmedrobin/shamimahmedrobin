@@ -4,11 +4,7 @@
     font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings:
-      "wdth" 100;}
-html{
-    max-width: 100%;
-    height: auto;
-}      
+      "wdth" 100;}    
 .dark-2{
     color: #474747;
 }
@@ -44,6 +40,7 @@ main{
     text-decoration: none;
     text-align: center;
     margin-top: 10px;
+    cursor: pointer;
     }   
 .btn-2{
     color: #FD6E0A;
@@ -52,6 +49,7 @@ main{
     border-color: #FD6E0A;
     border-radius: 5px;
     text-decoration: none;
+    cursor: pointer;
 }
 /* header */
 .header{
