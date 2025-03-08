@@ -234,4 +234,7 @@ footer textarea{
         padding: 5px;
         border: none;
     }
+    .section-title{
+        text-align: center;
+    }
 }
