@@ -23,11 +23,6 @@
 .text-center{
     text-align: center;
 }
-/* main styles */
-main{
-    max-width: 1140px;
-    margin: 0px auto;
-}
 /* btn style */
 .btn-primary{
     background-color: #FD6E0A;
@@ -193,4 +188,50 @@ footer textarea{
     padding: 30px;
     text-decoration: none;
     gap: 20px;
+}
+/* Responsive Media Query */
+.hide{
+    display: none;
+}
+@media screen and (max-width: 576px) {
+    .skill-conteiner{
+        flex-direction: column;
+    }
+    .resume-content{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .resume{
+        padding: 20px;
+    }
+    .resume-title{
+        text-align: center;
+    }
+    .title{
+        text-align: center;
+    }
+    .sub-title{
+        text-align: center;
+    }
+    .contact{
+        flex-direction: column;
+    }
+    footer{
+        padding: 10px;
+        background-color: none;
+    }
+    footer input[type="text"], input[type="email"]{
+        border-radius: 5px;
+        padding: 5px;
+        border: none;
+    }
+    .form{
+        width: 2px;
+    }
+    footer textarea{
+        border-radius: 5px;
+        background-color: white;
+        padding: 5px;
+        border: none;
+    }
 }
